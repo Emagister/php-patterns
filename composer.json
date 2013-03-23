@@ -1,0 +1,30 @@
+{
+    "name": "carlosio/php-patterns",
+    "type": "project",
+    "description": "PHP Patterns",
+    "keywords": ["learning", "php", "patterns"],
+    "homepage": "https://github.com/carlosbuenosvinos/php-patterns",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Buenosvinos",
+            "email": "hi@carlos.io",
+            "homepage": "http://carlos.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.20",
+        "phpunit/phpunit": "3.7.*",
+        "phpunit/php-code-coverage": "1.2.*",
+        "mockery/mockery": "dev-master",
+        "fabpot/php-cs-fixer": "0.1.*@dev",
+        "phpmd/phpmd": "dev-master",
+        "squizlabs/php_codesniffer": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": ["src"]
+        }
+    }
+}
